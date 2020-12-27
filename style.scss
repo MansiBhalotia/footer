@@ -1,0 +1,41 @@
+footer{
+	display:flex;
+	justify-content:space-evenly;
+
+	.footer-logo{
+	  //max-height:280px;
+	  display:flex;
+	  flex-direction:column;
+	  justify-content:space-between;
+	  blockquote{
+	    margin:0;
+	  }
+	}
+
+	.footer-content{
+	max-height:300px;
+	   display:flex;
+	   li{
+	    list-style:none;
+	    margin:0 40px;
+	   }
+	   a{
+	     display:block;
+	     text-decoration:none;
+	     color:black;
+	     margin:15px 0;
+	     p{
+	      margin:0;
+	     }
+
+	   }
+	   .icon{
+	      margin-top:100px;
+
+	      i{
+	       margin:10px;
+	      }
+	      }
+	   
+	}
+}
