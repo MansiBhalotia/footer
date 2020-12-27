@@ -27,11 +27,14 @@ footer .footer-content a {
 footer .footer-content a p {
   margin: 0;
 }
-footer .footer-content .icon {
-  margin-top: 100px;
+footer .footer-content .contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 footer .footer-content .icon i {
   margin: 10px;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */

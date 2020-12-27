@@ -29,13 +29,16 @@ footer{
 	     }
 
 	   }
-	   .icon{
-	      margin-top:100px;
-
-	      i{
+	   .contact{
+	        display: flex;
+		    flex-direction: column;
+		    justify-content:space-between;
+	   }
+	   .icon i{
 	       margin:10px;
+	       cursor:pointer;
 	      }
-	      }
+	      
 	   
 	}
 }
