@@ -37,4 +37,28 @@ footer .footer-content .icon i {
   cursor: pointer;
 }
 
+@media (max-width: 900px) {
+  footer .footer-logo h1 {
+    font-size: 25px;
+  }
+  footer .footer-logo blockquote {
+    font-size: 12px;
+  }
+  footer .footer-content li {
+    margin: 0 20px;
+  }
+  footer .footer-content li h3 {
+    font-size: 15px;
+  }
+  footer .footer-content li a {
+    font-size: 12px;
+  }
+  footer .footer-content li p {
+    font-size: 12px;
+  }
+  footer .footer-content .icon i {
+    margin: 0;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
