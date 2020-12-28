@@ -14,7 +14,7 @@ footer{
 	}
 
 	.footer-content{
-	max-height:300px;
+	//max-height:300px;
 	   display:flex;
 	   li{
 	    list-style:none;
@@ -48,7 +48,7 @@ footer{
 	footer {
 	.footer-logo{
 	  h1{
-	   font-size:25px;
+	   font-size:30px;
 
 	   }
 	   blockquote{
@@ -59,19 +59,27 @@ footer{
 	li{
 	   margin:0 20px;
 	   h3{
-	     font-size:15px;
+	     font-size:20px;
 	   }
 	   a{
-	     font-size:12px
+	     font-size:18px
 	   }
 	   p{
-	   font-size:12px;
+	   font-size:18px;
 	   }
 	}
 
-	.icon i{
+	.footer-content .icon i{
 	  margin:0;
 	}
 }
 }
+}
+@include for-phone-only{
+	footer{
+	  .footer-content{
+	     flex-wrap:wrap;
+	     padding:0;
+	  }
+	}
 }

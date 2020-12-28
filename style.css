@@ -11,7 +11,6 @@ footer .footer-logo blockquote {
   margin: 0;
 }
 footer .footer-content {
-  max-height: 300px;
   display: flex;
 }
 footer .footer-content li {
@@ -39,7 +38,7 @@ footer .footer-content .icon i {
 
 @media (max-width: 900px) {
   footer .footer-logo h1 {
-    font-size: 25px;
+    font-size: 30px;
   }
   footer .footer-logo blockquote {
     font-size: 12px;
@@ -48,16 +47,22 @@ footer .footer-content .icon i {
     margin: 0 20px;
   }
   footer .footer-content li h3 {
-    font-size: 15px;
+    font-size: 20px;
   }
   footer .footer-content li a {
-    font-size: 12px;
+    font-size: 18px;
   }
   footer .footer-content li p {
-    font-size: 12px;
+    font-size: 18px;
   }
-  footer .footer-content .icon i {
+  footer .footer-content .footer-content .icon i {
     margin: 0;
+  }
+}
+@media (max-width: 660px) {
+  footer .footer-content {
+    flex-wrap: wrap;
+    padding: 0;
   }
 }
 
