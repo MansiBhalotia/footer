@@ -1,3 +1,7 @@
+body {
+  margin: 0 0 0 10px;
+}
+
 footer {
   display: flex;
   justify-content: space-evenly;
@@ -38,22 +42,22 @@ footer .footer-content .icon i {
 
 @media (max-width: 900px) {
   footer .footer-logo h1 {
-    font-size: 30px;
+    font-size: 20px;
   }
   footer .footer-logo blockquote {
-    font-size: 12px;
+    font-size: 14px;
   }
   footer .footer-content li {
     margin: 0 20px;
   }
   footer .footer-content li h3 {
-    font-size: 20px;
+    font-size: 16px;
   }
   footer .footer-content li a {
-    font-size: 18px;
+    font-size: 14px;
   }
   footer .footer-content li p {
-    font-size: 18px;
+    font-size: 14px;
   }
   footer .footer-content .footer-content .icon i {
     margin: 0;
